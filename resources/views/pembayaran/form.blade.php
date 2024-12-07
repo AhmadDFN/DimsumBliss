@@ -29,7 +29,7 @@
                                 <option selected>Pilih Pelanggan</option>
                                 @foreach ($pelanggans as $item)
                                     <option value="{{ @$item->id }}"{{ @$item->id == @$idPelanggan ? 'Selected' : '' }}>
-                                        {{ @$item->pelanggan_nama . ' - Hutang sekarang Rp. ' . number_format($item->pelanggan_hutang, '0', ',', '.') }}
+                                        {{ @$item->pelanggan_nama . ' - Uang Muka sekarang Rp. ' . number_format($item->pelanggan_hutang, '0', ',', '.') }}
                                     </option>
                                 @endforeach
                             </select>

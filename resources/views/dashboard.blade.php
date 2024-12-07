@@ -73,12 +73,12 @@
         </div>
     </div>
 
-    <!-- Piutang -->
+    <!-- Uang Muka -->
     <div class="row mt-4">
         <div class="col-md-12">
             <div class="card p-4 border border-warning bg-light text-center">
                 <div class="card-icon">🧾</div>
-                <h5>Total Piutang</h5>
+                <h5>Total Uang Muka</h5>
                 <h4>Rp {{ number_format($hutang->total, '0', ',', '.') }}</h4>
             </div>
         </div>

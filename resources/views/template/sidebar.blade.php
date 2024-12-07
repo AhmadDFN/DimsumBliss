@@ -63,7 +63,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="dropdownLaporan">
                 <li><a class="dropdown-item" href="{{ url('detailtransaksi') }}">Detail Transaksi</a></li>
-                <li><a class="dropdown-item" href="{{ url('detailhutang') }}">Detail Hutang</a></li>
+                <li><a class="dropdown-item" href="{{ url('detailhutang') }}">Detail Uang Muka</a></li>
                 <li>
                     <a class="dropdown-item" href="{{ url('pengadaan') }}">Detail Pengadaan Barang</a>
                 </li>

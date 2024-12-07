@@ -97,7 +97,7 @@
                         <select class="form-select" id="pembayaran" name="pembayaran"
                             aria-label="Floating label select example">
                             <option value="Cash">Cash</option>
-                            <option value="Hutang">Hutang</option>
+                            <option value="Hutang">Uang Muka</option>
                         </select>
                         <label for="trans_pembayaran">Pembayaran</label>
                     </p>
